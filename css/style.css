@@ -3,13 +3,15 @@ body {
     flex-direction: column;
 }
 
-.header {
+.header, ul {
     display: flex;
+}
+
+.header {
     justify-content: space-between;
 }
 
 ul {
-    display: flex;
     list-style-type: none;
     gap: 10px;
 }
