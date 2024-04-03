@@ -36,7 +36,14 @@ ul {
 
 .title-content {
     display: flex;
-    background-color: white;
+    background-color: #1F2937;
+    padding: 16px;
+}
+
+.title-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
 }
 
 .random-info {
