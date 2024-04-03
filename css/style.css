@@ -4,27 +4,33 @@ body {
     flex-direction: column;
 }
 
-.header, ul, .title-content, .random-info {
-    display: flex;
-}
-
 .header {
+    display: flex;
+    height: 50px;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 24px;
 }
 
 ul {
+    display: flex;
+    margin: 0;
     font-size: 18px;
+    padding-inline-start: 0px;
     list-style-type: none;
     gap: 10px;
 }
 
 .top-links {
+    display: flex;
     text-decoration: none;
     color: #E5E7EB;
 }
 
+.title-content {
+    display: flex;
+}
+
 .random-info {
+    display: flex;
     justify-content: center;
 }
