@@ -8,12 +8,19 @@ body {
 }
 
 .header {
+    background-color: #1F2937;
     justify-content: space-between;
 }
 
 ul {
+    font-size: 18px;
     list-style-type: none;
     gap: 10px;
+}
+
+.top-links {
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 .random-info {
