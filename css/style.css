@@ -3,7 +3,7 @@ body {
     flex-direction: column;
 }
 
-.header, ul {
+.header, ul, .title-content, .random-info {
     display: flex;
 }
 
@@ -14,4 +14,8 @@ body {
 ul {
     list-style-type: none;
     gap: 10px;
+}
+
+.random-info {
+    justify-content: center;
 }
