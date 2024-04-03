@@ -17,6 +17,9 @@ body {
     height: 50px;
     background-color: #1F2937;
     justify-content: space-between;
+    align-items: center;
+    padding-left: 96px;
+    padding-right: 96px;
 }
 
 ul {
@@ -37,13 +40,56 @@ ul {
 .title-content {
     display: flex;
     background-color: #1F2937;
-    padding: 16px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.title-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.title-right {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    height: 225px;
+    width: 450px;
+    background-color: grey;
+}
+
+.title-header, .title-subtext, .sign-up-a {
+    margin: 4px;
+}
+
+.sign-up-a {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    border-color: #3882F6;
+    height: 24px;
+    width: 72px;
+    padding: 2px;
+    justify-content: center;
 }
 
 .title-header {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+}
+
+.title-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .random-info {
