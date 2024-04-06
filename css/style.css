@@ -4,14 +4,13 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: black;
-    overflow: hidden;
     font-family: "Roboto", sans-serif;
 }
 
 .fatboy {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 75%;
 }
 
 .header {
@@ -60,6 +59,7 @@ ul {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    padding-right: 48px;
 }
 
 .title-right {
@@ -114,12 +114,15 @@ ul {
     font-weight: bolder;
     color: #1F2937;
     margin: 24px;
+    flex-shrink: 0;
 }
 
 .cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: stretch;
+    flex: 1;
 }
 
 .card {
@@ -129,6 +132,7 @@ ul {
     justify-content: space-evenly;
     padding: 24px;
     width: 141px;
+    flex-shrink: 1;
 }
 
 .card-text {
@@ -137,4 +141,25 @@ ul {
 
 .insp-quote {
     display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding-left: 128px;
+    padding-right: 128px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
+
+.light-container {
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: end;
+    padding-right: 48px;
+    font-weight: bold;
+}
+
