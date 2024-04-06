@@ -5,6 +5,7 @@ body {
     align-items: center;
     background-color: black;
     overflow: hidden;
+    font-family: "Roboto", sans-serif;
 }
 
 .fatboy {
@@ -21,6 +22,11 @@ body {
     align-items: center;
     padding-left: 128px;
     padding-right: 128px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 ul {
@@ -63,6 +69,7 @@ ul {
     height: 225px;
     width: 400px;
     background-color: grey;
+    text-align: center;
 }
 
 .title-header, .title-subtext, .sign-up-a {
@@ -126,4 +133,8 @@ ul {
 
 .card-text {
     padding: 12px;
+}
+
+.insp-quote {
+    display: flex;
 }
